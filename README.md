@@ -13,8 +13,8 @@ The game has two modes: **Solver Mode** and **Generation Mode**.
 
 For both modes, the `-v` option will print each choice made during the solving process, along with the grid at every step. To redirect the solutions to a specific file, use the `-o` option followed by the desired output file name (e.g., `.txt`).
 
-Execute the program:  
+**To execute the program**:  
 
-./takuzu [-o FILE|-a|-v|-h] /path/to/file
-If you want to generate a grid of size N execute:
-./takuzu [-o FILE | -u | -v | -h] -gN
+./takuzu [-o FILE|-a|-v|-h] /path/to/file  
+If you want to generate a grid of size N execute:  
+./takuzu [-o FILE | -u | -v | -h] -gN  
