@@ -1,6 +1,11 @@
 # Takuzu
+Takuzu is a logic-based puzzle game played on an NxN grid, where N is typically 4, 8, 16, 32, or 64. The grid is filled with 0s and 1s, and the objective is to complete the grid following these rules:
 
-The Takuzu game has two modes: **Solver Mode** and **Generation Mode**.
+-Each row and column must contain an equal number of 0s and 1s.  
+-No more than two consecutive 0s or 1s can appear in any row or column.  
+-No two rows or columns can be identical.  
+
+The game has two modes: **Solver Mode** and **Generation Mode**.
 
 - **Solver Mode (Default)**: Use this mode to solve an existing grid. The grid must be NxN in size, where N can be 4, 8, 16, 32, or 64. By default, the program will find one solution, but you can use the `-a` option to find all solutions.
 
