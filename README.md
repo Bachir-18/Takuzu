@@ -15,6 +15,7 @@ For both modes, the `-v` option will print each choice made during the solving p
 
 **To execute the program**:  
 
-Solve a grid execute ./takuzu [-o FILE|-a|-v|-h] /path/to/file  
+Solve a grid execute  
+./takuzu [-o FILE|-a|-v|-h] /path/to/file  
 Generate a grid of size N execute:  
 ./takuzu [-o FILE | -u | -v | -h] -gN  
